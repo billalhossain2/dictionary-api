@@ -1,0 +1,66 @@
+/* Dictionary container  */
+.dictionary{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+/* Each Section  */
+section{
+    margin: 2rem 0;
+}
+
+/* Search Area  */
+.search-area div.search-field-container input{
+    padding: 5px 8px;
+    border-radius: 5px;
+    border: none;
+    background: #dfbfbf;
+    font-size: 1.5rem;
+}
+
+.search-btn-container button{
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    margin-top: 0.3rem;
+    cursor: pointer;
+    background: #085e52;
+    color: #fff;
+}
+
+/* Searched result area  */
+.searche-result-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.searched-result-container h1{
+    font-size: 3rem;
+    margin: 0;
+}
+
+.searched-result-container span{
+    color: #83050b;
+    font-weight: bolder;
+}
+
+.searched-result-container{
+    width: 30%;
+}
+
+.related-audio-container{
+    width: 30%;
+}
+
+/* Synonym Area  */
+.synonym-word span:nth-child(2){
+ color: #b80b84;
+}
+
+/* Showing error message box  */
+.error-container{
+    color: red;
+}

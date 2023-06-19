@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary Api</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="dictionary">
+        <h1>Your English Dictionary</h1>
+        <section class="search-area">
+            <form action="#">
+                <div class="search-field-container">
+                    <input id="search-input-field" type="text">
+                </div>
+                <div class="search-btn-container">
+                    <button id="search-btn">Search</button>
+                </div>
+            </form>
+        </section>
+
+        <!-- Showing error message  -->
+        <div>
+            <h3 class="error-container" id="error-container"></h3>
+        </div>
+
+        <section class="searche-result-wrapper">
+            <div class="searched-result-container">
+                <h1 class="clear-html" id="searched-word"></h1>
+                <span class="clear-html" id="search-word-pronunciation"></span>
+            </div>
+            <div class="clear-html" id="search-word-audio" class="related-audio-container">
+                <!--Pronunciation Audio comes here -->
+            </div>
+        </section>
+
+        <section>
+            <div class="clear-html" id="partsOfSpeech-container"></div>
+            <div class="clear-html" id="heading-and-list"></div>
+        </section>
+
+        <section class="clear-html" id="synonym-words-container" class="synonym-words-container">
+
+        </section>
+
+        <section class="clear-html" class="antonyms-container" id="antonyms-container">
+           <!-- Antonyms goes here .... -->
+        </section>
+
+        <section class="clear-html" class="example-container" id="example-container">
+            <!-- Example goes here .... -->
+         </section>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
